@@ -22,10 +22,10 @@
         android:text="@string/main_btn_product" />
 
     <Button
-        android:id="@+id/btnFAQ"
+        android:id="@+id/back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/main_btn_FAQ" />
+        android:text="@string/main_back" />
 
     <LinearLayout
         android:layout_width="match_parent"
