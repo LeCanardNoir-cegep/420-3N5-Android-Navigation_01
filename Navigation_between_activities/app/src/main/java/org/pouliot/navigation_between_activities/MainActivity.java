@@ -21,6 +21,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this, ProductActivity.class);
+                i.putExtra("id", 12);
+                i.putExtra("age", 46);
+                i.putExtra("cash", 200);
                 startActivity(i);
             }
         });
@@ -29,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this, FAQActivity.class);
+                i.putExtra("question", binding.question.getText().toString());
                 startActivity(i);
             }
         });
